@@ -1,0 +1,30 @@
+STORAGE_EMAIL = '<Email>'
+STORAGE_PASSWORD = '<Password>'
+
+EXTENSIONS_ALLOWED_IN_ATTACHMENTS = ('.csv','.xlsx','.txt')    
+
+FORMAT_DATE = "%d/%m/%Y" # Example : 03/08/2020
+FORMAT_TIME = "%H:%M:%S" # Example : 09:27:36
+
+SEARCH_DEFAULT_PATH_FOLDER = 'Inbox'
+
+CONVERSION_DICT = {
+    #WARNING: NEVER CHANGE THE LEFT SIDE, ONLY THE RIGHT SIDE
+    'ID'  : 'ID',
+    'FROM': 'FROM',
+    'NAME': 'NAME',
+    'DATE': 'DATE',
+    'TIME': 'TIME',
+    'SUBJECT': 'SUBJECT',
+    'PATH': 'PATH',
+    'ATTACHMENTS_LIST': 'ATTACHMENTS_LIST'
+}
+
+###Basics configs example
+SHEET_NAME = 'Resultados Diarios'
+
+CELLS_CONTAINING_DATE = 'F:H'
+SHEET_DATE_FORMAT = 'dd/mm/yyyy'
+
+CELLS_CONTAINING_NUMBER = 'C:C'
+SHEET_NUMBER_FORMAT = '#,##0.00'
