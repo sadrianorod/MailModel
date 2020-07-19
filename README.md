@@ -7,4 +7,4 @@ This code is an abstraction of a class designed to handle emails.
 * Please check in requirements.txt all dependencies
 * Use docker image to build it.
 
-(https://github.com/sadrianorod/MailModel/mailmodel.png)
+![Click here and check MailModel schema](https://github.com/sadrianorod/MailModel/mailmodel.png)
